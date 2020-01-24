@@ -8640,6 +8640,36 @@
     "version": "0.5.4+commit.9549d8ff.Emscripten.clang"
   },
   "networks": {
+    "3": {
+      "events": {
+        "0x08991e4feb8aaefe9087c705a27cfbce756d406fdd42fd09237fea31c291a0de": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "winner",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "prize",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "name": "players",
+              "type": "uint256"
+            }
+          ],
+          "name": "LottoEnded",
+          "type": "event",
+          "signature": "0x08991e4feb8aaefe9087c705a27cfbce756d406fdd42fd09237fea31c291a0de"
+        }
+      },
+      "links": {},
+      "address": "0x672cd14B8C442dABe3d9b99eC5a5cF22313753a5",
+      "transactionHash": "0x3c342cf5af7ee8f39e34fc0a6eb18d4ad09ad3caf5625665ec1f7bed36c7057a"
+    },
     "5777": {
       "events": {
         "0x647169e67a8c2a175af414c32a5ff1002e94068e43f9e3b008bd858ac0e91540": {
@@ -8703,7 +8733,7 @@
     }
   },
   "schemaVersion": "3.0.20",
-  "updatedAt": "2020-01-24T13:58:27.591Z",
+  "updatedAt": "2020-01-24T14:22:55.619Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
